@@ -1,0 +1,33 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "myReact by Vishnu Sharma",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishnusharma1908/myReact.git"
+  },
+  "keywords": [
+    "react",
+    "myReact"
+  ],
+  "author": "Vishnu Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishnusharma1908/myReact/issues"
+  },
+  "homepage": "https://github.com/vishnusharma1908/myReact#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
