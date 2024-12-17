@@ -17,3 +17,26 @@
 -HTTPs
 -Tree Shaking -remove unused code for you 
 -Different dev  and production bundles
+
+#Apni Kitchen 
+
+/*
+* Header
+  * Logo
+  * Nav Items
+* Body
+ * Search
+ * Restaurant container
+    * Rest Card
+      - Image, Name of Res, Star Rating , Cuisines ,
+* Footer
+  * Copyright
+  * Links
+  * Address
+  * Contact
+*/
+
+# React Hooks
+(Normal JS Utility functions)
+-useState() -superpowerful state vairables in react
+-useEffect()
