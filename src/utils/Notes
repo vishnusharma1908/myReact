@@ -1,0 +1,38 @@
+*The Purpose of the key Prop
+The key prop is a special attribute in React. It helps React identify which elements have changed, been added, or removed.
+React uses this key to optimize rendering. Without unique keys, React might re-render all elements, causing inefficiency.
+Why key={restaurant.data.id}?
+restaurant.data.id is likely a unique identifier for each restaurant (e.g., an ID from a database).
+Using a unique ID ensures each <RestaurantCard /> instance has a stable identity, making React's reconciliation process faster and more accurate.
+
+*Monolithic Architecture
+A software design where the entire application is built as a single, unified unit, with all components (UI, business logic, and database) tightly coupled and deployed together.
+
+*Microservices Architecture
+A software design approach where the application is divided into small, independent services, each focused on a specific business function, communicating via APIs, and deployed separately.
+
+Question==so in simple word i can say that async make sure that the function will run at any cost and await ensure that the function will run after this operation
+ChatGPT said:
+ChatGPT
+That's a great way to think about it in simple terms! Here's how you can break it down:
+
+async:
+
+Marks the function as asynchronous.
+Ensures the function will always return a Promise, even if you don't explicitly return one.
+This means the function can handle asynchronous operations using await.
+In simple terms:
+"async makes sure the function is prepared to handle asynchronous tasks."
+
+await:
+
+Pauses the execution of the function until the Promise is resolved.
+Ensures that the code after await runs only after the current operation is complete.
+In simple terms:
+"await ensures that the function waits for this operation to finish before continuing."
+
+So, putting it all together:
+
+async is the "enabler" that allows you to use await.
+await is the "pauser" that waits for a specific operation to finish before proceeding.
+This combination gives you clean and readable asynchronous code!
